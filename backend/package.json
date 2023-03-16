@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Support ticket application backend",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-     "server": "nodemon backend/server.js"
+     "dev": "nodemon server.js"
   },
   "author": "aviatorscode2",
   "license": "MIT",
